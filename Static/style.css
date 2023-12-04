@@ -1,0 +1,68 @@
+/* style.css content */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    background-image: url('../Images/Matrix.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increased font size for better visibility */
+    padding-bottom: 1rem; /* Space under the header */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto; /* Increase margin for more space around the main content */
+    background: #fff; /* Background for content */
+    padding: 40px; /* Uniform padding around content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.blog-post {
+    margin-bottom: 40px; /* Increase space between posts */
+    padding: 30px; /* More internal space */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    font-size: 1.75rem; /* Larger font size for subheadings */
+    color: #8d8d8d; /* Optional: Use a color to highlight subheadings */
+    margin-bottom: 1rem; /* Space below the subheading */
+    padding-bottom: 0.5rem; /* Padding to create separation */
+    border-bottom: 2px solid #eee; /* A subtle line under subheadings */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post p {
+    margin-bottom: 1.5rem; /* More space between paragraphs */
+    text-align: left; /* Left align for easy reading */
+    text-justify: inter-word; /* Justify text for cleaner presentation */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px; /* Space before the footer */
+}
